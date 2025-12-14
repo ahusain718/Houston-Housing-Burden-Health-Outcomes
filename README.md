@@ -1,75 +1,73 @@
 # Houston-Housing-Burden-Health-Outcomes
+Houston Housing Burden and Health Outcomes Analysis
 Executive Summary
-(2–3 sentences)
- Summarize your analysis goal: to examine whether areas in Houston with higher housing cost burden also experience worse health outcomes, and discuss what that means for city policy.
-Example:
-Households spending a disproportionate share of income on housing often face trade-offs with healthcare and other essentials. This analysis investigates the relationship between housing cost burden and key health indicators in Houston to inform equitable policy responses.
+
+This analysis investigates the relationship between housing cost burden and health outcomes across Houston ZIP codes. The findings indicate that higher housing cost burden is associated with worse physical health, mental health, and higher prevalence of diabetes, with statistically significant moderate correlations for all three outcomes. These results suggest that housing affordability is not just a housing issue but a public health concern, highlighting the need for targeted policy interventions.
 
 Background
-(3–4 sentences)
- Provide context:
-Houston has a large share of cost-burdened households, especially among renters and low-income families. City of Houston+1
 
+Houston is one of the most populous and economically diverse cities in the U.S., with over 2.3 million residents in the city proper. Key context:
 
-Housing cost burden can reduce resources available for health-promoting goods and services.
+Approximately 20–25% of Houston households live below the federal poverty line, with low-income and renter households disproportionately affected.
 
+Houston is racially and ethnically diverse: roughly 45% Hispanic/Latino, 23% Black/African American, 7% Asian, and 25% non-Hispanic White.
 
+Housing cost burden is widespread: many households spend more than 30% of their income on housing, limiting resources for healthcare, nutrition, and other essentials.
+
+These socioeconomic pressures make Houston an ideal case to explore the intersection of housing and health outcomes.
 
 Data & Methods
-(4–5 bullets)
-Data Sources:
-American Community Survey (ACS) 5-year estimates (housing cost burden, income)
 
+Data Sources
 
-CDC PLACES (health outcomes like poor physical health days / diabetes prevalence)
+Housing: American Community Survey (ACS) 5-year estimates for ZCTA-level housing cost burden and income (https://data.census.gov/table/ACSDT1Y2024.B25070?q=ACS+Table+B25070). 
 
+Health Outcomes: CDC PLACES data for ZCTA-level health indicators including poor physical health days, poor mental health days, and diabetes prevalence (https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-ZCTA-Data-2025/qnzd-25i4/about_data).
 
-Geography:
- ZIP Code Tabulation Areas (ZCTAs) covering Houston and Harris County
-Variables:
-Independent: % households cost-burdened (>30% or >50%)
+Geography
 
+ZIP Code Tabulation Areas (ZCTAs) covering Harris County, including the city of Houston.
 
-Dependent: selected health outcomes (poor physical health days, rates of chronic disease, etc.)
+Variables
 
+Independent Variable: Percent of households spending >30% of income on housing.
 
-Analysis:
- Correlational analysis and mapping of key indicators.
+Dependent Variables: Poor physical health days, poor mental health days, diabetes prevalence.
+
+Analysis
+
+Pearson correlation and linear regression (SciPy linregress) to quantify associations.
+
+Scatter plots with regression lines to visualize trends.
 
 Findings
-(Short bullets / visuals)
-Areas with the highest housing cost burden tended to show worse health indicators
 
+Physical Health: Moderate positive correlation with housing cost burden, statistically significant (p < 0.05).
 
-Highlight a couple of specific examples (e.g., ZIP codes most burdened and their health status)
+Mental Health: Moderate positive correlation with housing cost burden, statistically significant.
 
+Diabetes Prevalence: Moderate positive correlation with housing cost burden, statistically significant.
 
-Use simple graphs or a scatterplot to illustrate the association
+Implication: ZIP codes with higher housing cost burden consistently experience worse health outcomes across multiple measures.
 
+Visualizations include scatter plots for each health outcome with regression lines illustrating the relationship.
 
 Policy Implications
-(3–5 bullets)
-Housing affordability policies (e.g., rent stabilization, expansion of affordable units) could support better health outcomes.
 
+Affordable Housing Expansion: Increasing availability of low-cost units could mitigate health risks.
 
-Integrating housing support with community health services (e.g., local clinics) may mitigate health risks.
+Integrated Health & Housing Support: Programs that combine housing assistance with access to clinics or preventive care may improve outcomes.
 
-
-Data suggests prioritizing neighborhoods with both high burden and poor health for targeted programs.
-
+Targeted Interventions: Focus on ZIP codes with both high housing cost burden and poor health indicators for maximum impact.
 
 Limitations
-(1–2 bullets)
-Correlation does not imply causation
 
+Correlation does not imply causation.
 
-Limited by the level of geographic precision
+ZCTA-level analysis may mask individual-level variability.
 
+ACS and PLACES data are estimates with inherent sampling and reporting error.
 
 Conclusion
-(1–2 sentences)
- Summarize your analysis and argue that addressing housing affordability is not only a housing issue, but a public health concern.
 
- Resources
- Housing Data: https://data.census.gov/table/ACSDT1Y2024.B25070?q=ACS+Table+B25070
- Places Data: https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-ZCTA-Data-2025/qnzd-25i4/about_data
+Addressing housing affordability in Houston is critical not only for economic stability but also for public health, as moderate, statistically significant correlations link housing cost burden to poor physical health, mental health, and diabetes prevalence.
