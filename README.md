@@ -69,3 +69,7 @@ Limited by the level of geographic precision
 Conclusion
 (1–2 sentences)
  Summarize your analysis and argue that addressing housing affordability is not only a housing issue, but a public health concern.
+
+ Resources
+ Housing Data: https://data.census.gov/table/ACSDT1Y2024.B25070?q=ACS+Table+B25070
+ Places Data: https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-ZCTA-Data-2025/qnzd-25i4/about_data
