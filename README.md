@@ -1,5 +1,4 @@
-# Houston-Housing-Burden-Health-Outcomes
-Houston Housing Burden and Health Outcomes Analysis
+# Houston Housing Burden and Health Outcomes Analysis
 Executive Summary
 
 This analysis investigates the relationship between housing cost burden and health outcomes across Houston ZIP codes. The findings indicate that higher housing cost burden is associated with worse physical health, mental health, and higher prevalence of diabetes, with statistically significant moderate correlations for all three outcomes. These results suggest that housing affordability is not just a housing issue but a public health concern, highlighting the need for targeted policy interventions.
